@@ -3,12 +3,15 @@
   "version": "2.0.0",
   "private": true,
   "dependencies": {
-    "@thirdweb-dev/react": "^2.3.0",
-    "@thirdweb-dev/sdk": "^2.2.11",
-    "ethers": "^5.6.6",
+    "@ethersproject/constants": "^5.6.1",
+    "@thirdweb-dev/react": "^2.5.1",
+    "@thirdweb-dev/sdk": "^2.3.31",
+    "ethers": "^5.6.9",
+    "node-polyfill-webpack-plugin": "^2.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0"
+    "react-scripts": "^5.0.1",
+    "stream-browserify": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,5 +35,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "### **Welcome 👋** To get started with this project, clone this repo and follow these commands:",
+  "main": "index.js",
+  "devDependencies": {
+    "node": "^17.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildspace/buildspace-dao-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buildspace/buildspace-dao-starter/issues"
+  },
+  "homepage": "https://github.com/buildspace/buildspace-dao-starter#readme"
 }
